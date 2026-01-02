@@ -37,11 +37,10 @@ sudo apt-get install cmake
    - `units_sold`: Number of units sold (required) - target variable for forecasting
    - `weather`: Categorical (rainy/sunny/overcast) - regressor
    - `festival_events`: Binary (0/1) or numeric - regressor
-   - (Note: `temperature` and `time_of_day` columns may be present but are not used as regressors)
    
    **Example format:**
    ```
-   timestamp,product,units_sold,weather,temperature,festival_events,time_of_day
+   timestamp,product,units_sold,weather,festival_events
    2024-01-01 08:00:00,Danish,10,sunny,25,0,8
    2024-01-01 08:00:00,Muffins,20,sunny,25,0,8
    2024-01-01 08:00:00,Coffee,50,sunny,25,0,8

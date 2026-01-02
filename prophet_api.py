@@ -72,7 +72,6 @@ def run_forecast(data_file_path, future_regressors_path=None):
                     'timestamp': row['ds'].isoformat() if pd.notna(row['ds']) else None,
                     'units_sold': float(row['units_sold']) if pd.notna(row['units_sold']) else None,
                     'weather': row.get('weather', None),
-                    'temperature': float(row['temperature']) if pd.notna(row.get('temperature', None)) else None,
                     'festival_events': int(row['festival_events']) if pd.notna(row.get('festival_events', None)) else None
                 })
             
@@ -118,12 +117,12 @@ def run_forecast(data_file_path, future_regressors_path=None):
                 # Store in results
                 product_key = product_name.lower().replace(' ', '_')
                 results[product_key] = {
+                    'input': input_data,
                     'meta': {
                         'rows_in': result['data_points'],
                         'rows_out': len(forecast_data),
                         'regressors': regressor_cols
                     },
-                    'input': input_data,
                     'forecast': forecast_data
                 }
         

@@ -61,6 +61,14 @@ curl -X POST http://localhost:5000/forecast \
             "yhat_lower": 15.2,
             "yhat_upper": 23.8
           }
+        ],
+        "input": [
+          {
+            "timestamp": "2024-01-01T08:00:00",
+            "units_sold": 14.0,
+            "weather": "rainy",
+            "festival_events": 0
+          }
         ]
       }
     }
@@ -129,9 +137,9 @@ CSV file with the following columns:
 
 Example:
 ```csv
-timestamp,product,units_sold,weather,temperature,festival_events,time_of_day
-2024-01-01 08:00:00,Danish,14,rainy,30,0,8
-2024-01-01 08:00:00,Muffins,23,overcast,24,0,8
+timestamp,product,units_sold,weather,festival_events
+2024-01-01 08:00:00,Danish,14,rainy,0
+2024-01-01 08:00:00,Muffins,23,overcast,0
 ```
 
 ### Future Regressors File (optional)

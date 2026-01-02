@@ -2,9 +2,7 @@
 Prophet Forecasting Model with Regressors
 This script uses Meta's Prophet to forecast time series data with additional regressors:
 - Weather (rainy/sunny/overcast)
-- Temperature
 - Festival events
-- Time of day
 
 Supports multiple products - creates separate forecasts for each product.
 Input CSV format: Each row represents a product sale record with timestamp, product name, 
@@ -31,9 +29,7 @@ def load_and_prepare_data(csv_path):
     - product: product/SKU name (e.g., 'Danish', 'Muffins', 'Coffee', 'Tea')
     - units_sold: number of units sold (target variable 'y')
     - weather: categorical (rainy/sunny/overcast)
-    - temperature: numeric temperature values
     - festival_events: binary (0/1) or numeric indicating festival presence
-    - time_of_day: hour of day (0-23) or time feature
     
     Returns:
         DataFrame with all data, plus list of unique product names
@@ -65,7 +61,7 @@ def load_and_prepare_data(csv_path):
         df['weather_encoded'] = df['weather'].map(weather_mapping).fillna(0)
     
     # Ensure numeric columns are numeric
-    numeric_cols = ['units_sold', 'temperature', 'festival_events', 'time_of_day']
+    numeric_cols = ['units_sold', 'festival_events']
     for col in numeric_cols:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)

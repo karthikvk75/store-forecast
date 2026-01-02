@@ -61,6 +61,21 @@ def run_forecast(data_file_path, future_regressors_path=None):
         results = {}
         
         for product_name in sorted(product_names):
+            # Extract input data for this product before processing
+            product_input_df = df[df['product'] == product_name].copy()
+            product_input_df = product_input_df.sort_values('ds').reset_index(drop=True)
+            
+            # Format input data
+            input_data = []
+            for _, row in product_input_df.iterrows():
+                input_data.append({
+                    'timestamp': row['ds'].isoformat() if pd.notna(row['ds']) else None,
+                    'units_sold': float(row['units_sold']) if pd.notna(row['units_sold']) else None,
+                    'weather': row.get('weather', None),
+                    'temperature': float(row['temperature']) if pd.notna(row.get('temperature', None)) else None,
+                    'festival_events': int(row['festival_events']) if pd.notna(row.get('festival_events', None)) else None
+                })
+            
             # Process product (skip plots in API context)
             result = process_product(df, product_name, FORECAST_PERIODS, OUTPUT_DIR, future_regressors, skip_plots=True)
             
@@ -108,6 +123,7 @@ def run_forecast(data_file_path, future_regressors_path=None):
                         'rows_out': len(forecast_data),
                         'regressors': regressor_cols
                     },
+                    'input': input_data,
                     'forecast': forecast_data
                 }
         

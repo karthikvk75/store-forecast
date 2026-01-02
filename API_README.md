@@ -162,6 +162,15 @@ The API returns forecasts in the following format:
         "rows_out": 21,
         "regressors": ["weather", "festival_events"]
       },
+      "input": [
+        {
+          "timestamp": "2024-01-01T08:00:00",
+          "units_sold": 14,
+          "weather": "rainy",
+          "temperature": 30,
+          "festival_events": 0
+        }
+      ],
       "forecast": [
         {
           "ds": "2024-01-29T08:00:00",
@@ -181,6 +190,12 @@ Where:
 - `meta.rows_in`: Number of input data points
 - `meta.rows_out`: Number of forecast periods
 - `meta.regressors`: List of regressor names used
+- `input`: Array of input data objects with:
+  - `timestamp`: Timestamp in ISO format
+  - `units_sold`: Number of units sold
+  - `weather`: Weather condition (rainy/sunny/overcast)
+  - `temperature`: Temperature value
+  - `festival_events`: Festival event indicator (0/1)
 - `forecast`: Array of forecast objects with:
   - `ds`: Timestamp in ISO format
   - `yhat`: Forecasted value

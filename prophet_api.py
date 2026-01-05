@@ -75,8 +75,8 @@ def run_forecast(data_file_path, future_regressors_path=None):
                     'festival_events': int(row['festival_events']) if pd.notna(row.get('festival_events', None)) else None
                 })
             
-            # Process product (skip plots in API context)
-            result = process_product(df, product_name, FORECAST_PERIODS, OUTPUT_DIR, future_regressors, skip_plots=True)
+            # Process product (skip plots and CSV in API context)
+            result = process_product(df, product_name, FORECAST_PERIODS, OUTPUT_DIR, future_regressors, skip_plots=True, skip_csv=True)
             
             if result:
                 # Get regressor names used - these are the regressors we're using

@@ -1,0 +1,652 @@
+timestamp,product,units_sold,weather,festival_events
+2025-12-01 08:00:00,Danish,13,overcast,0
+2025-12-01 08:00:00,Muffins,22,overcast,0
+2025-12-01 08:00:00,Croissant,16,overcast,0
+2025-12-01 08:00:00,Bagel,12,overcast,0
+2025-12-01 08:00:00,Coffee,60,overcast,0
+2025-12-01 08:00:00,Latte,41,overcast,0
+2025-12-01 08:00:00,Iced Coffee,21,overcast,0
+2025-12-01 12:00:00,Danish,19,overcast,0
+2025-12-01 12:00:00,Muffins,36,overcast,0
+2025-12-01 12:00:00,Croissant,25,overcast,0
+2025-12-01 12:00:00,Bagel,15,overcast,0
+2025-12-01 12:00:00,Coffee,83,overcast,0
+2025-12-01 12:00:00,Latte,60,overcast,0
+2025-12-01 12:00:00,Iced Coffee,21,overcast,0
+2025-12-01 16:00:00,Danish,9,overcast,0
+2025-12-01 16:00:00,Muffins,15,overcast,0
+2025-12-01 16:00:00,Croissant,13,overcast,0
+2025-12-01 16:00:00,Bagel,8,overcast,0
+2025-12-01 16:00:00,Coffee,48,overcast,0
+2025-12-01 16:00:00,Latte,33,overcast,0
+2025-12-01 16:00:00,Iced Coffee,13,overcast,0
+2025-12-02 08:00:00,Danish,14,rainy,0
+2025-12-02 08:00:00,Muffins,19,rainy,0
+2025-12-02 08:00:00,Croissant,19,rainy,0
+2025-12-02 08:00:00,Bagel,10,rainy,0
+2025-12-02 08:00:00,Coffee,74,rainy,0
+2025-12-02 08:00:00,Latte,54,rainy,0
+2025-12-02 08:00:00,Iced Coffee,13,rainy,0
+2025-12-02 12:00:00,Danish,15,rainy,0
+2025-12-02 12:00:00,Muffins,35,rainy,0
+2025-12-02 12:00:00,Croissant,23,rainy,0
+2025-12-02 12:00:00,Bagel,16,rainy,0
+2025-12-02 12:00:00,Coffee,87,rainy,0
+2025-12-02 12:00:00,Latte,65,rainy,0
+2025-12-02 12:00:00,Iced Coffee,17,rainy,0
+2025-12-02 16:00:00,Danish,9,rainy,0
+2025-12-02 16:00:00,Muffins,17,rainy,0
+2025-12-02 16:00:00,Croissant,13,rainy,0
+2025-12-02 16:00:00,Bagel,8,rainy,0
+2025-12-02 16:00:00,Coffee,42,rainy,0
+2025-12-02 16:00:00,Latte,35,rainy,0
+2025-12-02 16:00:00,Iced Coffee,10,rainy,0
+2025-12-03 08:00:00,Danish,15,overcast,1
+2025-12-03 08:00:00,Muffins,22,overcast,1
+2025-12-03 08:00:00,Croissant,20,overcast,1
+2025-12-03 08:00:00,Bagel,11,overcast,1
+2025-12-03 08:00:00,Coffee,52,overcast,1
+2025-12-03 08:00:00,Latte,49,overcast,1
+2025-12-03 08:00:00,Iced Coffee,20,overcast,1
+2025-12-03 12:00:00,Danish,29,overcast,1
+2025-12-03 12:00:00,Muffins,63,overcast,1
+2025-12-03 12:00:00,Croissant,35,overcast,1
+2025-12-03 12:00:00,Bagel,24,overcast,1
+2025-12-03 12:00:00,Coffee,100,overcast,1
+2025-12-03 12:00:00,Latte,100,overcast,1
+2025-12-03 12:00:00,Iced Coffee,33,overcast,1
+2025-12-03 16:00:00,Danish,9,overcast,1
+2025-12-03 16:00:00,Muffins,16,overcast,1
+2025-12-03 16:00:00,Croissant,12,overcast,1
+2025-12-03 16:00:00,Bagel,9,overcast,1
+2025-12-03 16:00:00,Coffee,49,overcast,1
+2025-12-03 16:00:00,Latte,32,overcast,1
+2025-12-03 16:00:00,Iced Coffee,14,overcast,1
+2025-12-04 08:00:00,Danish,15,overcast,0
+2025-12-04 08:00:00,Muffins,19,overcast,0
+2025-12-04 08:00:00,Croissant,15,overcast,0
+2025-12-04 08:00:00,Bagel,11,overcast,0
+2025-12-04 08:00:00,Coffee,53,overcast,0
+2025-12-04 08:00:00,Latte,52,overcast,0
+2025-12-04 08:00:00,Iced Coffee,20,overcast,0
+2025-12-04 12:00:00,Danish,18,overcast,0
+2025-12-04 12:00:00,Muffins,36,overcast,0
+2025-12-04 12:00:00,Croissant,24,overcast,0
+2025-12-04 12:00:00,Bagel,13,overcast,0
+2025-12-04 12:00:00,Coffee,82,overcast,0
+2025-12-04 12:00:00,Latte,70,overcast,0
+2025-12-04 12:00:00,Iced Coffee,26,overcast,0
+2025-12-04 16:00:00,Danish,12,overcast,0
+2025-12-04 16:00:00,Muffins,15,overcast,0
+2025-12-04 16:00:00,Croissant,11,overcast,0
+2025-12-04 16:00:00,Bagel,8,overcast,0
+2025-12-04 16:00:00,Coffee,43,overcast,0
+2025-12-04 16:00:00,Latte,37,overcast,0
+2025-12-04 16:00:00,Iced Coffee,15,overcast,0
+2025-12-05 08:00:00,Danish,12,sunny,1
+2025-12-05 08:00:00,Muffins,21,sunny,1
+2025-12-05 08:00:00,Croissant,17,sunny,1
+2025-12-05 08:00:00,Bagel,10,sunny,1
+2025-12-05 08:00:00,Coffee,47,sunny,1
+2025-12-05 08:00:00,Latte,39,sunny,1
+2025-12-05 08:00:00,Iced Coffee,35,sunny,1
+2025-12-05 12:00:00,Danish,27,sunny,1
+2025-12-05 12:00:00,Muffins,58,sunny,1
+2025-12-05 12:00:00,Croissant,38,sunny,1
+2025-12-05 12:00:00,Bagel,23,sunny,1
+2025-12-05 12:00:00,Coffee,100,sunny,1
+2025-12-05 12:00:00,Latte,100,sunny,1
+2025-12-05 12:00:00,Iced Coffee,57,sunny,1
+2025-12-05 16:00:00,Danish,10,sunny,1
+2025-12-05 16:00:00,Muffins,15,sunny,1
+2025-12-05 16:00:00,Croissant,12,sunny,1
+2025-12-05 16:00:00,Bagel,7,sunny,1
+2025-12-05 16:00:00,Coffee,41,sunny,1
+2025-12-05 16:00:00,Latte,31,sunny,1
+2025-12-05 16:00:00,Iced Coffee,20,sunny,1
+2025-12-06 08:00:00,Danish,18,sunny,0
+2025-12-06 08:00:00,Muffins,33,sunny,0
+2025-12-06 08:00:00,Croissant,23,sunny,0
+2025-12-06 08:00:00,Bagel,15,sunny,0
+2025-12-06 08:00:00,Coffee,75,sunny,0
+2025-12-06 08:00:00,Latte,67,sunny,0
+2025-12-06 08:00:00,Iced Coffee,40,sunny,0
+2025-12-06 12:00:00,Danish,26,sunny,0
+2025-12-06 12:00:00,Muffins,48,sunny,0
+2025-12-06 12:00:00,Croissant,29,sunny,0
+2025-12-06 12:00:00,Bagel,22,sunny,0
+2025-12-06 12:00:00,Coffee,90,sunny,0
+2025-12-06 12:00:00,Latte,91,sunny,0
+2025-12-06 12:00:00,Iced Coffee,56,sunny,0
+2025-12-06 16:00:00,Danish,15,sunny,0
+2025-12-06 16:00:00,Muffins,19,sunny,0
+2025-12-06 16:00:00,Croissant,20,sunny,0
+2025-12-06 16:00:00,Bagel,11,sunny,0
+2025-12-06 16:00:00,Coffee,51,sunny,0
+2025-12-06 16:00:00,Latte,38,sunny,0
+2025-12-06 16:00:00,Iced Coffee,33,sunny,0
+2025-12-07 08:00:00,Danish,21,sunny,0
+2025-12-07 08:00:00,Muffins,25,sunny,0
+2025-12-07 08:00:00,Croissant,25,sunny,0
+2025-12-07 08:00:00,Bagel,15,sunny,0
+2025-12-07 08:00:00,Coffee,78,sunny,0
+2025-12-07 08:00:00,Latte,53,sunny,0
+2025-12-07 08:00:00,Iced Coffee,46,sunny,0
+2025-12-07 12:00:00,Danish,24,sunny,0
+2025-12-07 12:00:00,Muffins,51,sunny,0
+2025-12-07 12:00:00,Croissant,28,sunny,0
+2025-12-07 12:00:00,Bagel,19,sunny,0
+2025-12-07 12:00:00,Coffee,83,sunny,0
+2025-12-07 12:00:00,Latte,99,sunny,0
+2025-12-07 12:00:00,Iced Coffee,60,sunny,0
+2025-12-07 16:00:00,Danish,14,sunny,0
+2025-12-07 16:00:00,Muffins,23,sunny,0
+2025-12-07 16:00:00,Croissant,20,sunny,0
+2025-12-07 16:00:00,Bagel,12,sunny,0
+2025-12-07 16:00:00,Coffee,57,sunny,0
+2025-12-07 16:00:00,Latte,40,sunny,0
+2025-12-07 16:00:00,Iced Coffee,28,sunny,0
+2025-12-08 08:00:00,Danish,16,overcast,0
+2025-12-08 08:00:00,Muffins,24,overcast,0
+2025-12-08 08:00:00,Croissant,18,overcast,0
+2025-12-08 08:00:00,Bagel,11,overcast,0
+2025-12-08 08:00:00,Coffee,56,overcast,0
+2025-12-08 08:00:00,Latte,49,overcast,0
+2025-12-08 08:00:00,Iced Coffee,21,overcast,0
+2025-12-08 12:00:00,Danish,20,overcast,0
+2025-12-08 12:00:00,Muffins,35,overcast,0
+2025-12-08 12:00:00,Croissant,23,overcast,0
+2025-12-08 12:00:00,Bagel,13,overcast,0
+2025-12-08 12:00:00,Coffee,66,overcast,0
+2025-12-08 12:00:00,Latte,77,overcast,0
+2025-12-08 12:00:00,Iced Coffee,24,overcast,0
+2025-12-08 16:00:00,Danish,9,overcast,0
+2025-12-08 16:00:00,Muffins,14,overcast,0
+2025-12-08 16:00:00,Croissant,14,overcast,0
+2025-12-08 16:00:00,Bagel,7,overcast,0
+2025-12-08 16:00:00,Coffee,40,overcast,0
+2025-12-08 16:00:00,Latte,35,overcast,0
+2025-12-08 16:00:00,Iced Coffee,15,overcast,0
+2025-12-09 08:00:00,Danish,15,overcast,0
+2025-12-09 08:00:00,Muffins,19,overcast,0
+2025-12-09 08:00:00,Croissant,19,overcast,0
+2025-12-09 08:00:00,Bagel,11,overcast,0
+2025-12-09 08:00:00,Coffee,56,overcast,0
+2025-12-09 08:00:00,Latte,49,overcast,0
+2025-12-09 08:00:00,Iced Coffee,20,overcast,0
+2025-12-09 12:00:00,Danish,19,overcast,0
+2025-12-09 12:00:00,Muffins,33,overcast,0
+2025-12-09 12:00:00,Croissant,22,overcast,0
+2025-12-09 12:00:00,Bagel,13,overcast,0
+2025-12-09 12:00:00,Coffee,71,overcast,0
+2025-12-09 12:00:00,Latte,64,overcast,0
+2025-12-09 12:00:00,Iced Coffee,22,overcast,0
+2025-12-09 16:00:00,Danish,12,overcast,0
+2025-12-09 16:00:00,Muffins,15,overcast,0
+2025-12-09 16:00:00,Croissant,15,overcast,0
+2025-12-09 16:00:00,Bagel,9,overcast,0
+2025-12-09 16:00:00,Coffee,48,overcast,0
+2025-12-09 16:00:00,Latte,34,overcast,0
+2025-12-09 16:00:00,Iced Coffee,14,overcast,0
+2025-12-10 08:00:00,Danish,14,overcast,0
+2025-12-10 08:00:00,Muffins,19,overcast,0
+2025-12-10 08:00:00,Croissant,19,overcast,0
+2025-12-10 08:00:00,Bagel,11,overcast,0
+2025-12-10 08:00:00,Coffee,50,overcast,0
+2025-12-10 08:00:00,Latte,48,overcast,0
+2025-12-10 08:00:00,Iced Coffee,17,overcast,0
+2025-12-10 12:00:00,Danish,20,overcast,0
+2025-12-10 12:00:00,Muffins,36,overcast,0
+2025-12-10 12:00:00,Croissant,25,overcast,0
+2025-12-10 12:00:00,Bagel,14,overcast,0
+2025-12-10 12:00:00,Coffee,63,overcast,0
+2025-12-10 12:00:00,Latte,78,overcast,0
+2025-12-10 12:00:00,Iced Coffee,23,overcast,0
+2025-12-10 16:00:00,Danish,12,overcast,0
+2025-12-10 16:00:00,Muffins,18,overcast,0
+2025-12-10 16:00:00,Croissant,14,overcast,0
+2025-12-10 16:00:00,Bagel,8,overcast,0
+2025-12-10 16:00:00,Coffee,43,overcast,0
+2025-12-10 16:00:00,Latte,38,overcast,0
+2025-12-10 16:00:00,Iced Coffee,13,overcast,0
+2025-12-11 08:00:00,Danish,12,sunny,0
+2025-12-11 08:00:00,Muffins,21,sunny,0
+2025-12-11 08:00:00,Croissant,20,sunny,0
+2025-12-11 08:00:00,Bagel,12,sunny,0
+2025-12-11 08:00:00,Coffee,55,sunny,0
+2025-12-11 08:00:00,Latte,36,sunny,0
+2025-12-11 08:00:00,Iced Coffee,32,sunny,0
+2025-12-11 12:00:00,Danish,20,sunny,0
+2025-12-11 12:00:00,Muffins,28,sunny,0
+2025-12-11 12:00:00,Croissant,22,sunny,0
+2025-12-11 12:00:00,Bagel,16,sunny,0
+2025-12-11 12:00:00,Coffee,72,sunny,0
+2025-12-11 12:00:00,Latte,66,sunny,0
+2025-12-11 12:00:00,Iced Coffee,41,sunny,0
+2025-12-11 16:00:00,Danish,10,sunny,0
+2025-12-11 16:00:00,Muffins,15,sunny,0
+2025-12-11 16:00:00,Croissant,14,sunny,0
+2025-12-11 16:00:00,Bagel,9,sunny,0
+2025-12-11 16:00:00,Coffee,44,sunny,0
+2025-12-11 16:00:00,Latte,35,sunny,0
+2025-12-11 16:00:00,Iced Coffee,23,sunny,0
+2025-12-12 08:00:00,Danish,14,rainy,0
+2025-12-12 08:00:00,Muffins,23,rainy,0
+2025-12-12 08:00:00,Croissant,18,rainy,0
+2025-12-12 08:00:00,Bagel,12,rainy,0
+2025-12-12 08:00:00,Coffee,70,rainy,0
+2025-12-12 08:00:00,Latte,56,rainy,0
+2025-12-12 08:00:00,Iced Coffee,13,rainy,0
+2025-12-12 12:00:00,Danish,17,rainy,0
+2025-12-12 12:00:00,Muffins,28,rainy,0
+2025-12-12 12:00:00,Croissant,23,rainy,0
+2025-12-12 12:00:00,Bagel,12,rainy,0
+2025-12-12 12:00:00,Coffee,80,rainy,0
+2025-12-12 12:00:00,Latte,76,rainy,0
+2025-12-12 12:00:00,Iced Coffee,16,rainy,0
+2025-12-12 16:00:00,Danish,11,rainy,0
+2025-12-12 16:00:00,Muffins,13,rainy,0
+2025-12-12 16:00:00,Croissant,11,rainy,0
+2025-12-12 16:00:00,Bagel,9,rainy,0
+2025-12-12 16:00:00,Coffee,46,rainy,0
+2025-12-12 16:00:00,Latte,33,rainy,0
+2025-12-12 16:00:00,Iced Coffee,10,rainy,0
+2025-12-13 08:00:00,Danish,21,overcast,0
+2025-12-13 08:00:00,Muffins,27,overcast,0
+2025-12-13 08:00:00,Croissant,26,overcast,0
+2025-12-13 08:00:00,Bagel,14,overcast,0
+2025-12-13 08:00:00,Coffee,71,overcast,0
+2025-12-13 08:00:00,Latte,65,overcast,0
+2025-12-13 08:00:00,Iced Coffee,27,overcast,0
+2025-12-13 12:00:00,Danish,26,overcast,0
+2025-12-13 12:00:00,Muffins,48,overcast,0
+2025-12-13 12:00:00,Croissant,35,overcast,0
+2025-12-13 12:00:00,Bagel,21,overcast,0
+2025-12-13 12:00:00,Coffee,98,overcast,0
+2025-12-13 12:00:00,Latte,100,overcast,0
+2025-12-13 12:00:00,Iced Coffee,31,overcast,0
+2025-12-13 16:00:00,Danish,14,overcast,0
+2025-12-13 16:00:00,Muffins,19,overcast,0
+2025-12-13 16:00:00,Croissant,16,overcast,0
+2025-12-13 16:00:00,Bagel,14,overcast,0
+2025-12-13 16:00:00,Coffee,68,overcast,0
+2025-12-13 16:00:00,Latte,51,overcast,0
+2025-12-13 16:00:00,Iced Coffee,19,overcast,0
+2025-12-14 08:00:00,Danish,18,overcast,0
+2025-12-14 08:00:00,Muffins,27,overcast,0
+2025-12-14 08:00:00,Croissant,23,overcast,0
+2025-12-14 08:00:00,Bagel,17,overcast,0
+2025-12-14 08:00:00,Coffee,88,overcast,0
+2025-12-14 08:00:00,Latte,67,overcast,0
+2025-12-14 08:00:00,Iced Coffee,25,overcast,0
+2025-12-14 12:00:00,Danish,28,overcast,0
+2025-12-14 12:00:00,Muffins,48,overcast,0
+2025-12-14 12:00:00,Croissant,32,overcast,0
+2025-12-14 12:00:00,Bagel,21,overcast,0
+2025-12-14 12:00:00,Coffee,100,overcast,0
+2025-12-14 12:00:00,Latte,89,overcast,0
+2025-12-14 12:00:00,Iced Coffee,32,overcast,0
+2025-12-14 16:00:00,Danish,16,overcast,0
+2025-12-14 16:00:00,Muffins,19,overcast,0
+2025-12-14 16:00:00,Croissant,16,overcast,0
+2025-12-14 16:00:00,Bagel,10,overcast,0
+2025-12-14 16:00:00,Coffee,53,overcast,0
+2025-12-14 16:00:00,Latte,53,overcast,0
+2025-12-14 16:00:00,Iced Coffee,21,overcast,0
+2025-12-15 08:00:00,Danish,14,sunny,0
+2025-12-15 08:00:00,Muffins,18,sunny,0
+2025-12-15 08:00:00,Croissant,17,sunny,0
+2025-12-15 08:00:00,Bagel,11,sunny,0
+2025-12-15 08:00:00,Coffee,48,sunny,0
+2025-12-15 08:00:00,Latte,41,sunny,0
+2025-12-15 08:00:00,Iced Coffee,30,sunny,0
+2025-12-15 12:00:00,Danish,18,sunny,0
+2025-12-15 12:00:00,Muffins,33,sunny,0
+2025-12-15 12:00:00,Croissant,19,sunny,0
+2025-12-15 12:00:00,Bagel,14,sunny,0
+2025-12-15 12:00:00,Coffee,70,sunny,0
+2025-12-15 12:00:00,Latte,63,sunny,0
+2025-12-15 12:00:00,Iced Coffee,43,sunny,0
+2025-12-15 16:00:00,Danish,11,sunny,0
+2025-12-15 16:00:00,Muffins,14,sunny,0
+2025-12-15 16:00:00,Croissant,11,sunny,0
+2025-12-15 16:00:00,Bagel,9,sunny,0
+2025-12-15 16:00:00,Coffee,34,sunny,0
+2025-12-15 16:00:00,Latte,32,sunny,0
+2025-12-15 16:00:00,Iced Coffee,26,sunny,0
+2025-12-16 08:00:00,Danish,14,sunny,0
+2025-12-16 08:00:00,Muffins,20,sunny,0
+2025-12-16 08:00:00,Croissant,18,sunny,0
+2025-12-16 08:00:00,Bagel,11,sunny,0
+2025-12-16 08:00:00,Coffee,54,sunny,0
+2025-12-16 08:00:00,Latte,47,sunny,0
+2025-12-16 08:00:00,Iced Coffee,30,sunny,0
+2025-12-16 12:00:00,Danish,20,sunny,0
+2025-12-16 12:00:00,Muffins,36,sunny,0
+2025-12-16 12:00:00,Croissant,20,sunny,0
+2025-12-16 12:00:00,Bagel,13,sunny,0
+2025-12-16 12:00:00,Coffee,59,sunny,0
+2025-12-16 12:00:00,Latte,53,sunny,0
+2025-12-16 12:00:00,Iced Coffee,34,sunny,0
+2025-12-16 16:00:00,Danish,11,sunny,0
+2025-12-16 16:00:00,Muffins,14,sunny,0
+2025-12-16 16:00:00,Croissant,12,sunny,0
+2025-12-16 16:00:00,Bagel,9,sunny,0
+2025-12-16 16:00:00,Coffee,34,sunny,0
+2025-12-16 16:00:00,Latte,34,sunny,0
+2025-12-16 16:00:00,Iced Coffee,21,sunny,0
+2025-12-17 08:00:00,Danish,12,overcast,1
+2025-12-17 08:00:00,Muffins,22,overcast,1
+2025-12-17 08:00:00,Croissant,18,overcast,1
+2025-12-17 08:00:00,Bagel,13,overcast,1
+2025-12-17 08:00:00,Coffee,63,overcast,1
+2025-12-17 08:00:00,Latte,50,overcast,1
+2025-12-17 08:00:00,Iced Coffee,17,overcast,1
+2025-12-17 12:00:00,Danish,26,overcast,1
+2025-12-17 12:00:00,Muffins,62,overcast,1
+2025-12-17 12:00:00,Croissant,39,overcast,1
+2025-12-17 12:00:00,Bagel,27,overcast,1
+2025-12-17 12:00:00,Coffee,100,overcast,1
+2025-12-17 12:00:00,Latte,100,overcast,1
+2025-12-17 12:00:00,Iced Coffee,41,overcast,1
+2025-12-17 16:00:00,Danish,10,overcast,1
+2025-12-17 16:00:00,Muffins,18,overcast,1
+2025-12-17 16:00:00,Croissant,14,overcast,1
+2025-12-17 16:00:00,Bagel,8,overcast,1
+2025-12-17 16:00:00,Coffee,47,overcast,1
+2025-12-17 16:00:00,Latte,37,overcast,1
+2025-12-17 16:00:00,Iced Coffee,12,overcast,1
+2025-12-18 08:00:00,Danish,16,overcast,0
+2025-12-18 08:00:00,Muffins,21,overcast,0
+2025-12-18 08:00:00,Croissant,19,overcast,0
+2025-12-18 08:00:00,Bagel,11,overcast,0
+2025-12-18 08:00:00,Coffee,66,overcast,0
+2025-12-18 08:00:00,Latte,44,overcast,0
+2025-12-18 08:00:00,Iced Coffee,16,overcast,0
+2025-12-18 12:00:00,Danish,20,overcast,0
+2025-12-18 12:00:00,Muffins,28,overcast,0
+2025-12-18 12:00:00,Croissant,21,overcast,0
+2025-12-18 12:00:00,Bagel,17,overcast,0
+2025-12-18 12:00:00,Coffee,84,overcast,0
+2025-12-18 12:00:00,Latte,70,overcast,0
+2025-12-18 12:00:00,Iced Coffee,24,overcast,0
+2025-12-18 16:00:00,Danish,10,overcast,0
+2025-12-18 16:00:00,Muffins,15,overcast,0
+2025-12-18 16:00:00,Croissant,12,overcast,0
+2025-12-18 16:00:00,Bagel,9,overcast,0
+2025-12-18 16:00:00,Coffee,47,overcast,0
+2025-12-18 16:00:00,Latte,37,overcast,0
+2025-12-18 16:00:00,Iced Coffee,15,overcast,0
+2025-12-19 08:00:00,Danish,12,overcast,0
+2025-12-19 08:00:00,Muffins,21,overcast,0
+2025-12-19 08:00:00,Croissant,15,overcast,0
+2025-12-19 08:00:00,Bagel,12,overcast,0
+2025-12-19 08:00:00,Coffee,58,overcast,0
+2025-12-19 08:00:00,Latte,51,overcast,0
+2025-12-19 08:00:00,Iced Coffee,18,overcast,0
+2025-12-19 12:00:00,Danish,15,overcast,0
+2025-12-19 12:00:00,Muffins,28,overcast,0
+2025-12-19 12:00:00,Croissant,24,overcast,0
+2025-12-19 12:00:00,Bagel,15,overcast,0
+2025-12-19 12:00:00,Coffee,65,overcast,0
+2025-12-19 12:00:00,Latte,60,overcast,0
+2025-12-19 12:00:00,Iced Coffee,25,overcast,0
+2025-12-19 16:00:00,Danish,9,overcast,0
+2025-12-19 16:00:00,Muffins,17,overcast,0
+2025-12-19 16:00:00,Croissant,14,overcast,0
+2025-12-19 16:00:00,Bagel,7,overcast,0
+2025-12-19 16:00:00,Coffee,39,overcast,0
+2025-12-19 16:00:00,Latte,39,overcast,0
+2025-12-19 16:00:00,Iced Coffee,13,overcast,0
+2025-12-20 08:00:00,Danish,19,overcast,0
+2025-12-20 08:00:00,Muffins,33,overcast,0
+2025-12-20 08:00:00,Croissant,28,overcast,0
+2025-12-20 08:00:00,Bagel,19,overcast,0
+2025-12-20 08:00:00,Coffee,89,overcast,0
+2025-12-20 08:00:00,Latte,62,overcast,0
+2025-12-20 08:00:00,Iced Coffee,23,overcast,0
+2025-12-20 12:00:00,Danish,27,overcast,0
+2025-12-20 12:00:00,Muffins,46,overcast,0
+2025-12-20 12:00:00,Croissant,30,overcast,0
+2025-12-20 12:00:00,Bagel,23,overcast,0
+2025-12-20 12:00:00,Coffee,91,overcast,0
+2025-12-20 12:00:00,Latte,96,overcast,0
+2025-12-20 12:00:00,Iced Coffee,28,overcast,0
+2025-12-20 16:00:00,Danish,14,overcast,0
+2025-12-20 16:00:00,Muffins,19,overcast,0
+2025-12-20 16:00:00,Croissant,16,overcast,0
+2025-12-20 16:00:00,Bagel,11,overcast,0
+2025-12-20 16:00:00,Coffee,65,overcast,0
+2025-12-20 16:00:00,Latte,52,overcast,0
+2025-12-20 16:00:00,Iced Coffee,20,overcast,0
+2025-12-21 08:00:00,Danish,22,overcast,0
+2025-12-21 08:00:00,Muffins,29,overcast,0
+2025-12-21 08:00:00,Croissant,23,overcast,0
+2025-12-21 08:00:00,Bagel,18,overcast,0
+2025-12-21 08:00:00,Coffee,76,overcast,0
+2025-12-21 08:00:00,Latte,73,overcast,0
+2025-12-21 08:00:00,Iced Coffee,22,overcast,0
+2025-12-21 12:00:00,Danish,28,overcast,0
+2025-12-21 12:00:00,Muffins,39,overcast,0
+2025-12-21 12:00:00,Croissant,35,overcast,0
+2025-12-21 12:00:00,Bagel,21,overcast,0
+2025-12-21 12:00:00,Coffee,100,overcast,0
+2025-12-21 12:00:00,Latte,84,overcast,0
+2025-12-21 12:00:00,Iced Coffee,34,overcast,0
+2025-12-21 16:00:00,Danish,17,overcast,0
+2025-12-21 16:00:00,Muffins,22,overcast,0
+2025-12-21 16:00:00,Croissant,19,overcast,0
+2025-12-21 16:00:00,Bagel,13,overcast,0
+2025-12-21 16:00:00,Coffee,61,overcast,0
+2025-12-21 16:00:00,Latte,50,overcast,0
+2025-12-21 16:00:00,Iced Coffee,20,overcast,0
+2025-12-22 08:00:00,Danish,16,sunny,0
+2025-12-22 08:00:00,Muffins,18,sunny,0
+2025-12-22 08:00:00,Croissant,16,sunny,0
+2025-12-22 08:00:00,Bagel,13,sunny,0
+2025-12-22 08:00:00,Coffee,60,sunny,0
+2025-12-22 08:00:00,Latte,41,sunny,0
+2025-12-22 08:00:00,Iced Coffee,32,sunny,0
+2025-12-22 12:00:00,Danish,16,sunny,0
+2025-12-22 12:00:00,Muffins,29,sunny,0
+2025-12-22 12:00:00,Croissant,22,sunny,0
+2025-12-22 12:00:00,Bagel,14,sunny,0
+2025-12-22 12:00:00,Coffee,69,sunny,0
+2025-12-22 12:00:00,Latte,55,sunny,0
+2025-12-22 12:00:00,Iced Coffee,44,sunny,0
+2025-12-22 16:00:00,Danish,12,sunny,0
+2025-12-22 16:00:00,Muffins,17,sunny,0
+2025-12-22 16:00:00,Croissant,13,sunny,0
+2025-12-22 16:00:00,Bagel,8,sunny,0
+2025-12-22 16:00:00,Coffee,44,sunny,0
+2025-12-22 16:00:00,Latte,33,sunny,0
+2025-12-22 16:00:00,Iced Coffee,21,sunny,0
+2025-12-23 08:00:00,Danish,16,overcast,0
+2025-12-23 08:00:00,Muffins,23,overcast,0
+2025-12-23 08:00:00,Croissant,20,overcast,0
+2025-12-23 08:00:00,Bagel,12,overcast,0
+2025-12-23 08:00:00,Coffee,61,overcast,0
+2025-12-23 08:00:00,Latte,45,overcast,0
+2025-12-23 08:00:00,Iced Coffee,21,overcast,0
+2025-12-23 12:00:00,Danish,19,overcast,0
+2025-12-23 12:00:00,Muffins,27,overcast,0
+2025-12-23 12:00:00,Croissant,19,overcast,0
+2025-12-23 12:00:00,Bagel,14,overcast,0
+2025-12-23 12:00:00,Coffee,81,overcast,0
+2025-12-23 12:00:00,Latte,79,overcast,0
+2025-12-23 12:00:00,Iced Coffee,21,overcast,0
+2025-12-23 16:00:00,Danish,11,overcast,0
+2025-12-23 16:00:00,Muffins,15,overcast,0
+2025-12-23 16:00:00,Croissant,15,overcast,0
+2025-12-23 16:00:00,Bagel,9,overcast,0
+2025-12-23 16:00:00,Coffee,49,overcast,0
+2025-12-23 16:00:00,Latte,34,overcast,0
+2025-12-23 16:00:00,Iced Coffee,14,overcast,0
+2025-12-24 08:00:00,Danish,13,overcast,1
+2025-12-24 08:00:00,Muffins,18,overcast,1
+2025-12-24 08:00:00,Croissant,19,overcast,1
+2025-12-24 08:00:00,Bagel,13,overcast,1
+2025-12-24 08:00:00,Coffee,68,overcast,1
+2025-12-24 08:00:00,Latte,53,overcast,1
+2025-12-24 08:00:00,Iced Coffee,19,overcast,1
+2025-12-24 12:00:00,Danish,31,overcast,1
+2025-12-24 12:00:00,Muffins,66,overcast,1
+2025-12-24 12:00:00,Croissant,39,overcast,1
+2025-12-24 12:00:00,Bagel,22,overcast,1
+2025-12-24 12:00:00,Coffee,100,overcast,1
+2025-12-24 12:00:00,Latte,100,overcast,1
+2025-12-24 12:00:00,Iced Coffee,43,overcast,1
+2025-12-24 16:00:00,Danish,11,overcast,1
+2025-12-24 16:00:00,Muffins,14,overcast,1
+2025-12-24 16:00:00,Croissant,14,overcast,1
+2025-12-24 16:00:00,Bagel,9,overcast,1
+2025-12-24 16:00:00,Coffee,42,overcast,1
+2025-12-24 16:00:00,Latte,30,overcast,1
+2025-12-24 16:00:00,Iced Coffee,15,overcast,1
+2025-12-25 08:00:00,Danish,14,overcast,0
+2025-12-25 08:00:00,Muffins,23,overcast,0
+2025-12-25 08:00:00,Croissant,18,overcast,0
+2025-12-25 08:00:00,Bagel,13,overcast,0
+2025-12-25 08:00:00,Coffee,60,overcast,0
+2025-12-25 08:00:00,Latte,47,overcast,0
+2025-12-25 08:00:00,Iced Coffee,21,overcast,0
+2025-12-25 12:00:00,Danish,17,overcast,0
+2025-12-25 12:00:00,Muffins,28,overcast,0
+2025-12-25 12:00:00,Croissant,19,overcast,0
+2025-12-25 12:00:00,Bagel,16,overcast,0
+2025-12-25 12:00:00,Coffee,76,overcast,0
+2025-12-25 12:00:00,Latte,73,overcast,0
+2025-12-25 12:00:00,Iced Coffee,21,overcast,0
+2025-12-25 16:00:00,Danish,9,overcast,0
+2025-12-25 16:00:00,Muffins,13,overcast,0
+2025-12-25 16:00:00,Croissant,12,overcast,0
+2025-12-25 16:00:00,Bagel,9,overcast,0
+2025-12-25 16:00:00,Coffee,43,overcast,0
+2025-12-25 16:00:00,Latte,34,overcast,0
+2025-12-25 16:00:00,Iced Coffee,16,overcast,0
+2025-12-26 08:00:00,Danish,13,overcast,0
+2025-12-26 08:00:00,Muffins,21,overcast,0
+2025-12-26 08:00:00,Croissant,19,overcast,0
+2025-12-26 08:00:00,Bagel,11,overcast,0
+2025-12-26 08:00:00,Coffee,61,overcast,0
+2025-12-26 08:00:00,Latte,51,overcast,0
+2025-12-26 08:00:00,Iced Coffee,21,overcast,0
+2025-12-26 12:00:00,Danish,16,overcast,0
+2025-12-26 12:00:00,Muffins,36,overcast,0
+2025-12-26 12:00:00,Croissant,22,overcast,0
+2025-12-26 12:00:00,Bagel,13,overcast,0
+2025-12-26 12:00:00,Coffee,73,overcast,0
+2025-12-26 12:00:00,Latte,79,overcast,0
+2025-12-26 12:00:00,Iced Coffee,23,overcast,0
+2025-12-26 16:00:00,Danish,10,overcast,0
+2025-12-26 16:00:00,Muffins,16,overcast,0
+2025-12-26 16:00:00,Croissant,12,overcast,0
+2025-12-26 16:00:00,Bagel,7,overcast,0
+2025-12-26 16:00:00,Coffee,39,overcast,0
+2025-12-26 16:00:00,Latte,30,overcast,0
+2025-12-26 16:00:00,Iced Coffee,12,overcast,0
+2025-12-27 08:00:00,Danish,23,overcast,1
+2025-12-27 08:00:00,Muffins,40,overcast,1
+2025-12-27 08:00:00,Croissant,29,overcast,1
+2025-12-27 08:00:00,Bagel,20,overcast,1
+2025-12-27 08:00:00,Coffee,100,overcast,1
+2025-12-27 08:00:00,Latte,83,overcast,1
+2025-12-27 08:00:00,Iced Coffee,36,overcast,1
+2025-12-27 12:00:00,Danish,29,overcast,1
+2025-12-27 12:00:00,Muffins,53,overcast,1
+2025-12-27 12:00:00,Croissant,35,overcast,1
+2025-12-27 12:00:00,Bagel,24,overcast,1
+2025-12-27 12:00:00,Coffee,100,overcast,1
+2025-12-27 12:00:00,Latte,100,overcast,1
+2025-12-27 12:00:00,Iced Coffee,38,overcast,1
+2025-12-27 16:00:00,Danish,17,overcast,1
+2025-12-27 16:00:00,Muffins,29,overcast,1
+2025-12-27 16:00:00,Croissant,22,overcast,1
+2025-12-27 16:00:00,Bagel,15,overcast,1
+2025-12-27 16:00:00,Coffee,81,overcast,1
+2025-12-27 16:00:00,Latte,66,overcast,1
+2025-12-27 16:00:00,Iced Coffee,22,overcast,1
+2025-12-28 08:00:00,Danish,21,overcast,0
+2025-12-28 08:00:00,Muffins,31,overcast,0
+2025-12-28 08:00:00,Croissant,22,overcast,0
+2025-12-28 08:00:00,Bagel,18,overcast,0
+2025-12-28 08:00:00,Coffee,93,overcast,0
+2025-12-28 08:00:00,Latte,56,overcast,0
+2025-12-28 08:00:00,Iced Coffee,25,overcast,0
+2025-12-28 12:00:00,Danish,27,overcast,0
+2025-12-28 12:00:00,Muffins,48,overcast,0
+2025-12-28 12:00:00,Croissant,28,overcast,0
+2025-12-28 12:00:00,Bagel,19,overcast,0
+2025-12-28 12:00:00,Coffee,99,overcast,0
+2025-12-28 12:00:00,Latte,96,overcast,0
+2025-12-28 12:00:00,Iced Coffee,34,overcast,0
+2025-12-28 16:00:00,Danish,14,overcast,0
+2025-12-28 16:00:00,Muffins,22,overcast,0
+2025-12-28 16:00:00,Croissant,20,overcast,0
+2025-12-28 16:00:00,Bagel,10,overcast,0
+2025-12-28 16:00:00,Coffee,57,overcast,0
+2025-12-28 16:00:00,Latte,51,overcast,0
+2025-12-28 16:00:00,Iced Coffee,22,overcast,0
+2025-12-29 08:00:00,Danish,14,overcast,0
+2025-12-29 08:00:00,Muffins,21,overcast,0
+2025-12-29 08:00:00,Croissant,15,overcast,0
+2025-12-29 08:00:00,Bagel,11,overcast,0
+2025-12-29 08:00:00,Coffee,59,overcast,0
+2025-12-29 08:00:00,Latte,42,overcast,0
+2025-12-29 08:00:00,Iced Coffee,17,overcast,0
+2025-12-29 12:00:00,Danish,17,overcast,0
+2025-12-29 12:00:00,Muffins,27,overcast,0
+2025-12-29 12:00:00,Croissant,21,overcast,0
+2025-12-29 12:00:00,Bagel,13,overcast,0
+2025-12-29 12:00:00,Coffee,70,overcast,0
+2025-12-29 12:00:00,Latte,61,overcast,0
+2025-12-29 12:00:00,Iced Coffee,26,overcast,0
+2025-12-29 16:00:00,Danish,11,overcast,0
+2025-12-29 16:00:00,Muffins,17,overcast,0
+2025-12-29 16:00:00,Croissant,14,overcast,0
+2025-12-29 16:00:00,Bagel,8,overcast,0
+2025-12-29 16:00:00,Coffee,39,overcast,0
+2025-12-29 16:00:00,Latte,35,overcast,0
+2025-12-29 16:00:00,Iced Coffee,14,overcast,0
+2025-12-30 08:00:00,Danish,15,sunny,0
+2025-12-30 08:00:00,Muffins,21,sunny,0
+2025-12-30 08:00:00,Croissant,15,sunny,0
+2025-12-30 08:00:00,Bagel,11,sunny,0
+2025-12-30 08:00:00,Coffee,51,sunny,0
+2025-12-30 08:00:00,Latte,43,sunny,0
+2025-12-30 08:00:00,Iced Coffee,31,sunny,0
+2025-12-30 12:00:00,Danish,17,sunny,0
+2025-12-30 12:00:00,Muffins,37,sunny,0
+2025-12-30 12:00:00,Croissant,23,sunny,0
+2025-12-30 12:00:00,Bagel,13,sunny,0
+2025-12-30 12:00:00,Coffee,59,sunny,0
+2025-12-30 12:00:00,Latte,56,sunny,0
+2025-12-30 12:00:00,Iced Coffee,36,sunny,0
+2025-12-30 16:00:00,Danish,9,sunny,0
+2025-12-30 16:00:00,Muffins,14,sunny,0
+2025-12-30 16:00:00,Croissant,12,sunny,0
+2025-12-30 16:00:00,Bagel,8,sunny,0
+2025-12-30 16:00:00,Coffee,45,sunny,0
+2025-12-30 16:00:00,Latte,27,sunny,0
+2025-12-30 16:00:00,Iced Coffee,23,sunny,0
+2025-12-31 08:00:00,Danish,14,overcast,0
+2025-12-31 08:00:00,Muffins,24,overcast,0
+2025-12-31 08:00:00,Croissant,15,overcast,0
+2025-12-31 08:00:00,Bagel,11,overcast,0
+2025-12-31 08:00:00,Coffee,67,overcast,0
+2025-12-31 08:00:00,Latte,51,overcast,0
+2025-12-31 08:00:00,Iced Coffee,21,overcast,0
+2025-12-31 12:00:00,Danish,16,overcast,0
+2025-12-31 12:00:00,Muffins,29,overcast,0
+2025-12-31 12:00:00,Croissant,23,overcast,0
+2025-12-31 12:00:00,Bagel,16,overcast,0
+2025-12-31 12:00:00,Coffee,75,overcast,0
+2025-12-31 12:00:00,Latte,70,overcast,0
+2025-12-31 12:00:00,Iced Coffee,22,overcast,0
+2025-12-31 16:00:00,Danish,11,overcast,0
+2025-12-31 16:00:00,Muffins,14,overcast,0
+2025-12-31 16:00:00,Croissant,12,overcast,0
+2025-12-31 16:00:00,Bagel,8,overcast,0
+2025-12-31 16:00:00,Coffee,44,overcast,0
+2025-12-31 16:00:00,Latte,31,overcast,0
+2025-12-31 16:00:00,Iced Coffee,12,overcast,0

@@ -334,7 +334,7 @@ def create_wide_format_forecast(all_forecasts):
     return wide_df
 
 
-def process_product(df, product_name, forecast_periods, output_dir='outputs', future_regressors=None, skip_plots=False):
+def process_product(df, product_name, forecast_periods, output_dir='outputs', future_regressors=None, skip_plots=False, skip_csv=False):
     """
     Process forecasting for a single product.
     
@@ -345,6 +345,7 @@ def process_product(df, product_name, forecast_periods, output_dir='outputs', fu
         output_dir: Directory to save outputs
         future_regressors: DataFrame with future regressor values (optional)
         skip_plots: If True, skip generating plot files (useful for API contexts)
+        skip_csv: If True, skip generating CSV files (useful for API contexts)
     
     Returns:
         Dictionary with forecast results and metrics
@@ -377,14 +378,15 @@ def process_product(df, product_name, forecast_periods, output_dir='outputs', fu
     print(f"\nLast {min(10, forecast_periods)} forecasted values:")
     print(forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(min(10, forecast_periods)))
     
-    # Save forecast to CSV
-    os.makedirs(output_dir, exist_ok=True)
-    forecast_output = forecast[['product', 'ds', 'yhat', 'yhat_lower', 'yhat_upper']]
-    # Sanitize product name for filename (replace spaces/special chars)
-    safe_product_name = product_name.replace(' ', '_').replace('/', '_')
-    forecast_path = os.path.join(output_dir, f'forecast_{safe_product_name}.csv')
-    forecast_output.to_csv(forecast_path, index=False)
-    print(f"\nSaved forecast to '{forecast_path}'")
+    # Save forecast to CSV (skip in API context)
+    if not skip_csv:
+        os.makedirs(output_dir, exist_ok=True)
+        forecast_output = forecast[['product', 'ds', 'yhat', 'yhat_lower', 'yhat_upper']]
+        # Sanitize product name for filename (replace spaces/special chars)
+        safe_product_name = product_name.replace(' ', '_').replace('/', '_')
+        forecast_path = os.path.join(output_dir, f'forecast_{safe_product_name}.csv')
+        forecast_output.to_csv(forecast_path, index=False)
+        print(f"\nSaved forecast to '{forecast_path}'")
     
     # Plot results (skip in API context)
     if not skip_plots:
